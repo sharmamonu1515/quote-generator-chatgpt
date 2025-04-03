@@ -24,10 +24,12 @@
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": [
-    "**/._*", 
+    "**/._*",  // Exclude hidden macOS files
     "**/.DS_Store",
     "**/node_modules",
-    "**/build",
-    "**/dist"
+    "**/.next",
+    "**/out",
+    "**/dist",
+    "**/build"
   ]
 }

@@ -69,10 +69,10 @@ export default function QuoteEditor({
 
       <button
         type="button"
-        className="bg-red-500 hidden mx-2 text-white px-10 py-3 rounded-lg shadow-lg transition-all uppercase mt-3 hover:bg-red-700 disabled:bg-gray-400"
+        className="bg-amber-500 mx-2 text-white px-10 py-3 rounded-lg shadow-lg transition-all uppercase mt-3 hover:bg-amber-700 disabled:bg-gray-400"
         onClick={onQuoteRegenerate}
       >
-        Regenerate Quote
+        Edit Details
       </button>
     </div>
   );
